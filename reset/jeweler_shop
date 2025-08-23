@@ -1,0 +1,23 @@
+resets:=
+  type    : 1
+  times   : 1
+  chance  : 100
+  max     : 1
+  room_max: 1
+  arg     : agatha_kitchur
+  -
+  type    : 2
+  times   : 1
+  chance  : 100
+  max     : 1
+  room_max: 1
+  arg     : jeweler_sign
+  -
+  type    : 2
+  times   : 5
+  chance  : 100
+  max     : 10
+  room_max: 5
+  arg     : silver_ring
+  -
+-

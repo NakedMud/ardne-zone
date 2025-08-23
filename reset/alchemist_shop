@@ -1,0 +1,23 @@
+resets:=
+  type    : 1
+  times   : 1
+  chance  : 100
+  max     : 1
+  room_max: 1
+  arg     : oriel_harper
+  -
+  type    : 2
+  times   : 1
+  chance  : 100
+  max     : 1
+  room_max: 1
+  arg     : alchemist_menu
+  -
+  type    : 2
+  times   : 5
+  chance  : 100
+  max     : 10
+  room_max: 5
+  arg     : healing_potion
+  -
+-

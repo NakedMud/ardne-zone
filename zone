@@ -1,0 +1,12 @@
+pulse_timer: -1
+name       : Adrne Village
+desc       :~
+  This is a sample zone created to showcase some of the things that you can 
+  build in NakedMud. It includes some basic items like a store, a pub, a
+  handful of NPCs with various script triggers and special items. 
+  
+  As I build more in this zone, it will require more modules to be able
+  to run, right now it requires the primary modules: currency, consumables,
+  gear, and races. These are all available via homepage or github.
+editors    : Ninja
+-
