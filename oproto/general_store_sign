@@ -10,22 +10,22 @@ script  :~
   me.rdesc    = "A painted wooden sign hangs above the counter."
   me.desc     = """@@@""" + me.desc + ' ' + """A painted wooden sign hangs above the counter:
   
-  +--------------------------------------------------+
-  |              THE BEARDED CENTER                  |
-  |               General Goods & Supplies           |
-  +--------------------------------------------------+
-  |  SPECIALS:                | REGULAR STOCK:       |
-  |    Signet Ring ...... 5gp |   Rope, Hemp .... 2gp|
-  |    Steel Mirror ..... 5gp |   Backpack ....... 2gp|
-  |    Leatherworker Tools 1gp|   Bedroll ........ 5sp|
-  |    Miner's Pick ..... 5sp |   Blanket ........ 5sp|
-  |    Torch ............ 1cp |   Candle ......... 1cp|
-  |    Flint & Steel .... 1gp |   Oil Flask ...... 1sp|
-  |    Grappling Hook ... 2gp |   Piton .......... 5cp|
-  |    Hammer ........... 2gp |   Crowbar ........ 2gp|
-  |    Shovel ........... 2gp |   Waterskin ...... 2gp|
-  |                           |   Rations (1 day) 2sp|
-  +--------------------------------------------------+
+  +----------------------------------------------------+
+  |              KITE'S GENERAL STORE                  |
+  |               General Goods & Supplies             |
+  +----------------------------------------------------+
+  |  SPECIALS:                | REGULAR STOCK:         |
+  |    Signet Ring ...... 5gp |   Rope, Hemp .... 2gp  |
+  |    Steel Mirror ..... 5gp |   Backpack ....... 2gp |
+  |    Leatherworker Tools 1gp|   Bedroll ........ 5sp |
+  |    Miner's Pick ..... 5sp |   Blanket ........ 5sp |
+  |    Torch ............ 1cp |   Candle ......... 1cp |
+  |    Flint & Steel .... 1gp |   Oil Flask ...... 1sp |
+  |    Grappling Hook ... 2gp |   Piton .......... 5cp |
+  |    Hammer ........... 2gp |   Crowbar ........ 2gp |
+  |    Shovel ........... 2gp |   Waterskin ...... 2gp |
+  |                           |   Rations (1 day) 2sp  |
+  +----------------------------------------------------+
   """
   
   ### object bits

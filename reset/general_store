@@ -6,7 +6,7 @@ resets:=
   room_max: 1
   arg     : kite_of_storm
   -
-  type    : 2
+  type    : 0
   times   : 1
   chance  : 100
   max     : 1

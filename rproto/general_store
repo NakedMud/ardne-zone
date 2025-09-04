@@ -7,15 +7,15 @@ script  :~
   ### string values
   me.name       = "Kite's General Store"
   me.terrain    = "Inside"
-  me.desc       = me.desc + " " + "This wooden tower serves as Ardne Village's general store, its blue tile roof \r\ngleaming in the sunlight. The interior features polished tile flooring and a \r\nwell-stocked workshop area filled with tools and supplies. Barrels full of bulk \r\nfood line the walls - grain, dried beans, salt pork, and preserved vegetables. \r\nShelves display an assortment of everyday items needed by villagers and travelers \r\nalike. The proprietor's workspace shows signs of leatherworking and minor repairs. \r\nThis practical establishment serves as the village's primary source for \r\neveryday necessities and traveling supplies. Shelves line every wall, stocked \r\nwith essential goods from rope and tools to preserved foods and basic clothing. \r\nBarrels of grain occupy much of the floor space.\r\n"
+  me.desc       = me.desc + " " + "    This wooden tower serves as Ardne Village's general store, its blue tile \r\nroof gleaming in the sunlight.  The interior features polished tile flooring \r\nand a well-stocked workshop area filled with tools and supplies.  Barrels full \r\nof bulk food line the walls - grain, dried beans, salt pork, and preserved \r\nvegetables.  Shelves display an assortment of everyday items needed by \r\nvillagers and travelers alike.  The proprietor's workspace shows signs of \r\nleatherworking and minor repairs.  This practical establishment serves as the \r\nvillage's primary source for everyday necessities and traveling supplies.\r\nShelves line every wall, stocked with essential goods from rope and tools to \r\npreserved foods and basic clothing.  Barrels of grain occupy much of the floor \r\nspace.\r\n"
   
   ### extra descriptions
-  me.edesc("barrels", "Large wooden barrels contain grain, flour, salt, and other preserved foods. \r\nEach is clearly labeled and sealed to keep contents fresh.\r\n")
-  me.edesc("workshop", "A corner workspace shows evidence of leatherworking - strips of leather, awls, \r\nneedles, and thread. Simple repairs and alterations are clearly done here for \r\nthe local community.\r\n")
-  me.edesc("shelves", "Wooden shelves line the walls, holding an assortment of everyday necessities - \r\ncandles, rope, small tools, eating utensils, and various containers. Everything \r\nis neatly organized and well-maintained.\r\n")
+  me.edesc("barrels", "    Large wooden barrels contain grain, flour, salt, and other preserved foods.\r\nEach is clearly labeled and sealed to keep contents fresh.\r\n")
+  me.edesc("workshop", "    A corner workspace shows evidence of leatherworking - strips of leather, \r\nawls, needles, and thread.  Simple repairs and alterations are clearly done \r\nhere for the local community.\r\n")
+  me.edesc("shelves", "    Wooden shelves line the walls, holding an assortment of everyday \r\nnecessities - candles, rope, small tools, eating utensils, and various \r\ncontainers.  Everything is neatly organized and well-maintained.\r\n")
   
   ### begin exit: south
   exit = me.dig("south", "market_street")
-  exit.desc       = "Market Street lies to the south.\r\n"
+  exit.desc       = "    Market Street lies to the south.\r\n"
   ### end exit
 -
