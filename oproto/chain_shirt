@@ -15,8 +15,9 @@ script  :~
   ### numeric values
   me.weight   = 20.000
   
-  ### item type: worn
-  me.settype("worn")
-  me.worn_type = "shirt"
+  ### item type: equipped
+  me.settype("equipped")
+  me.get_type_data("equipped").armor_class = 2
+  me.get_type_data("equipped").worn_type = "shirt"
   ### end type
 -

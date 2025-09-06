@@ -5,17 +5,19 @@ script  :~
   ### conventions laid out by oedit, or delete the top line
   
   ### keywords, short descs, room descs, and look descs
-  me.keywords = "sword, iron, weapon"  + ", " + me.keywords
+  me.keywords = ', '.join([me.keywords, "sword, iron, weapon"])
   me.name     = "an iron sword"
   me.mname    = "a pile of %d iron swords"
   me.rdesc    = "An iron sword lies here."
   me.mdesc    = "%d iron swords lie here."
-  me.desc     = me.desc + ' ' + "This iron sword is a fine example of the blacksmith's craft, with a straight \r\ndouble-edged blade that gleams with a dull metallic sheen. The crossguard is \r\nsimple but functional, while the leather-wrapped handle provides a secure grip. \r\nThe blade shows the hammer marks of its forging, and while not ornate, it is \r\nclearly a reliable weapon suitable for both combat and daily carry by guards \r\nand adventurers alike.\r\n"
+  me.desc     = me.desc + ' ' + "    This iron sword is a fine example of the blacksmith's craft, with a \r\nstraight double-edged blade that gleams with a dull metallic sheen.  The \r\ncrossguard is simple but functional, while the leather-wrapped handle provides \r\na secure grip.  The blade shows the hammer marks of its forging, and while not \r\nornate, it is clearly a reliable weapon suitable for both combat and daily \r\ncarry by guards and adventurers alike.\r\n"
   
   ### numeric values
   me.weight   = 3.000
   
-  ### set type: worn
-  me.settype("worn")
+  ### item type: wielded
+  me.settype("wielded")
+  me.get_type_data("wielded").damage_dice = "1d8"
+  me.get_type_data("wielded").material = "iron"
   ### end type
 -
